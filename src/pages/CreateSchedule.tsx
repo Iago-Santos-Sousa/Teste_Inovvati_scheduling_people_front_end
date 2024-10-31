@@ -89,7 +89,7 @@ const CreateSchedule = () => {
                 type="text"
                 placeholder="Nome da pessoa"
                 id="person_name"
-                className="pl-10 pr-4 py-2 border rounded-lg w-full focus:outline-prymaryPurple invalid:outline-red-500 aria-required:outline-red-500"
+                className="pl-10 pr-4 py-2 border rounded-lg w-full focus:outline-blueLightAqua invalid:outline-red-500 aria-required:outline-red-500"
                 {...register("person_name", {
                   required: "Digite um nome!",
                 })}
@@ -140,7 +140,7 @@ const CreateSchedule = () => {
                 type="text"
                 id="location"
                 placeholder="Localização"
-                className="pl-10 pr-4 py-2 border rounded-lg w-full focus:outline-prymaryPurple invalid:outline-red-500 aria-required:outline-red-500"
+                className="pl-10 pr-4 py-2 border rounded-lg w-full focus:outline-blueLightAqua invalid:outline-red-500 aria-required:outline-red-500"
                 {...register("location", {
                   required: "Insira o local!",
                 })}
