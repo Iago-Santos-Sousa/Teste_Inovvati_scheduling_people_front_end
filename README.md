@@ -1,50 +1,75 @@
-# React + TypeScript + Vite
+# 📦 Project Name
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Teste Inovvati de Agendamento de pessoas - Front-End
 
-Currently, two official plugins are available:
+## 🚀 Pré-requisitos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Antes de começar, verifique se você atende aos seguintes requisitos:
 
-## Expanding the ESLint configuration
+- Node.js (versão 18 ou superior)
+- npm (versão 9 ou superior) ou Yarn
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🔧 Instalação
 
-- Configure the top-level `parserOptions` property like this:
+Siga estas etapas para clonar e configurar o projeto localmente:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+1. Clone o repositório:
+
+```bash
+git clone git@github.com:Iago-Santos-Sousa/User-Login-System-Front-End.git
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+2. Navegue até o diretório do projeto:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+```bash
+cd seu-projeto
 ```
+
+3. Instale as dependências:
+
+```bash
+# Usando npm
+npm install
+
+# Ou usando Yarn
+yarn install
+```
+
+## 🌟 Executando o Projeto
+
+### Modo de Desenvolvimento
+
+Para iniciar o servidor de desenvolvimento:
+
+```bash
+# Com npm
+npm run dev
+
+# Com Yarn
+yarn dev
+```
+
+Abra [http://localhost:5173](http://localhost:5173) ou a porta que desejar no seu navegador.
+
+## 🤝 Contribuindo
+
+1. Faça um fork do projeto
+2. Crie sua feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
+4. Push para a branch (`git push origin feature/AmazingFeature`)
+5. Abra um Pull Request
+
+## 📌 Tecnologias Utilizadas
+
+- React.js
+- Vite
+- TypeScript
+- Tailwind CSS
+- Axios
+- MUI-X (biblioteca de componentes)
+
+## 📞 Contato
+
+Seu Nome - [seu-email@exemplo.com](iago.santos.sousa@gmail.com)
+
+Link do Projeto: [https://github.com/Iago-Santos-Sousa/User-Login-System-Front-End](https://github.com/Iago-Santos-Sousa/User-Login-System-Front-End)
