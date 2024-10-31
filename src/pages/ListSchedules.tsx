@@ -74,7 +74,7 @@ const ListSchedules = () => {
 
   return (
     <>
-      {error && <p>{error}</p>}
+      {error && <p className="text-center">{error}</p>}
       {schedules.length > 0 && !error ? (
         <div>
           <div
