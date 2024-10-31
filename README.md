@@ -70,6 +70,6 @@ Abra [http://localhost:5173](http://localhost:5173) ou a porta que desejar no se
 
 ## 📞 Contato
 
-Seu Nome - [seu-email@exemplo.com](iago.santos.sousa@gmail.com)
+E-mail - [iago.santos.sousa@gmail.com](iago.santos.sousa@gmail.com)
 
 Link do Projeto: [https://github.com/Iago-Santos-Sousa/User-Login-System-Front-End](https://github.com/Iago-Santos-Sousa/User-Login-System-Front-End)
